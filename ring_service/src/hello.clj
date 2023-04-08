@@ -8,5 +8,7 @@
     (f/with-zone (f/formatter "hh:mm aa")(t/default-time-zone))
       dt))
 
+(comment (time-str(t/now))  
+
 (defn -main [] 
   (println "Hello " (time-str (t/now))))
